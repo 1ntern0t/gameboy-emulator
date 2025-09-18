@@ -4,6 +4,7 @@
 #include <ctime>
 #include <chrono>
 #include <SDL2/SDL.h>
+#include <iostream>
 
 using namespace std::chrono;
 
@@ -15,4 +16,7 @@ class PPU{};
 
 class CPU{};
 
-int main(int argc, char* argv[]){ return 0; }
+int main(int argc, char* argv[]){ 
+  std::cout<<"Test";
+  return 0; 
+}
